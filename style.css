@@ -1,0 +1,43 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(41, 40, 40);
+    margin: 1cm;
+}
+
+table {
+    width: 100%;
+    cursor: pointer;
+}
+
+th,
+td {
+    padding: 10px 15px 15px 15px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 90%;
+    border-bottom: 3px solid rgb(9, 63, 165);
+    border-top: 2px solid rgb(9, 63, 165);
+    text-align: center;
+}
+
+tr.even {
+    background-color: rgb(79, 177, 223);
+}
+
+tr:focus {
+    outline: none;
+    background-color: rgb(85, 8, 8);
+    border: solid rgb(204, 0, 255);
+}
+
+tr:hover {
+
+    background-color: rgb(156, 198, 226);
+}
+
+.money {
+    text-align: right;
+}
